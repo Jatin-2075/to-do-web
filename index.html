@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TO-DO APP</title>
+        <link rel="stylesheet" href="todo-style.css">
+    </head>
+    <body>
+        <h1>TO DO LIST WEB</h1>
+        <div>
+            <div class="container" id="input">
+                <div>
+                    <input class="inputuser" id="task_enter" type="text" placeholder="Enter Task">
+                    <button id="enter_button" type="submit">Task</button>
+                </div>
+                <div>
+                    <input class="inputuser" id="task_done" type="text" placeholder="TASK Number">
+                    <button id="done_button" type="button">DONE</button>
+                </div>
+                <div>
+                    <input class="inputuser" id="task_remove" type="text" placeholder="Enter Task To remove">
+                    <button id="remove_button" type="button">REMOVE</button>
+                </div>
+            </div>
+            <div class="container" id="list">
+                <div>
+                    <h2>TASKs</h2>
+                    <ul id="ul_not" ></ul>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="todo-script.js"></script>
+</html>
